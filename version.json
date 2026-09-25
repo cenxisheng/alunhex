@@ -1,8 +1,8 @@
 {
-  "version": "1.0.0",
-  "url": "https://github.com/cenxisheng/alunhex/releases/download/v1.0.0/AlunHex-1.0.0.zip",
-  "notes": "首个对外版本：AlunHex · 阵容/出装/海克斯三套推荐 + 卡面实时评级",
+  "version": "1.2.0",
+  "url": "https://github.com/cenxisheng/alunhex/releases/download/v1.2.0/AlunHex-1.2.0.zip",
+  "notes": "1. 卡面评级快约 10 倍：修掉轮询睡了两遍（实测周期 2.1s → 0.41s，注释写的是 0.35s，差 6 倍）；扫描带从「窗高的一半」改成 12% 的薄带（单带 212ms → 26ms）；一轮就扫齐 3 张时立刻显示，不再等第二轮。出现延迟从约 4.2 秒降到约 0.4 秒，消失约 0.8 秒。\n2. 修掉一个永久盲区：旧代码在默认路径下根本不扫窗口下方 88%~96%，卡面落在那儿就永远不显示（部分机器「切了无边框还是不显示」就是这个）。现在是 7 条薄带从 26% 一路铺到 96%，无缝衔接。\n3. 顺带提升准确率：OCR 认出的长句（HUD 提示、卡面描述、聊天）不再送去匹配卡名（卡名最长 8 字，长句不可能命中却白白扫描），减少评级图标画到别处的情况。防抖没有牺牲——只有「扫齐 3 张且三个字号一致」才允许跳过第二轮，只有 2 张仍要连续两轮。",
   "mandatory": false,
-  "published_at": "2026-09-25 00:39",
-  "setup_url": "https://github.com/cenxisheng/alunhex/releases/download/v1.0.0/AlunHex-Setup-1.0.0.exe"
+  "published_at": "2026-09-25 19:26",
+  "setup_url": "https://github.com/cenxisheng/alunhex/releases/download/v1.2.0/AlunHex-Setup-1.2.0.exe"
 }
