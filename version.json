@@ -1,8 +1,8 @@
 {
-  "version": "1.3.1",
-  "url": "https://github.com/cenxisheng/alunhex/releases/download/v1.3.1/AlunHex-1.3.1.zip",
-  "notes": "1. 数据更新到 16.19（2026-09-29，2884 万场对局）。\n2. 英雄与装备静态字典更新到 Data Dragon 16.19.1（英雄无增删，1 件装备官方文案更新）。\n3. 拆掉一处永不命中的死代码（augment_matrix）：包体减小约 1.2MB。已实测对评分与来源零影响（12660 条评分逐条一致）。\n4. 修复回归跑器在部分机器上因编码问题启动即崩的毛病。",
+  "version": "1.3.2",
+  "url": "https://github.com/cenxisheng/alunhex/releases/download/v1.3.2/AlunHex-1.3.2.zip",
+  "notes": "1. 修复更新失败的老毛病：面板窗口子进程现在会随主程序一起退出（父进程被强杀也会退），不再锁住程序目录导致「更新后版本没变」。\n2. 修复卸载可能误删目录的问题：安装位置若被改成盘根或游戏目录，卸载将拒绝执行并说明原因。\n3. 修复更新时备份目录落点不确定的问题（现在固定在同一磁盘的确定位置）。\n4. 数据已更新到 16.19（2026-09-29）。",
   "mandatory": false,
-  "published_at": "2026-09-30 23:11",
-  "setup_url": "https://github.com/cenxisheng/alunhex/releases/download/v1.3.1/AlunHex-Setup-1.3.1.exe"
+  "published_at": "2026-10-01 00:05",
+  "setup_url": "https://github.com/cenxisheng/alunhex/releases/download/v1.3.2/AlunHex-Setup-1.3.2.exe"
 }
