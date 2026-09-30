@@ -1,8 +1,8 @@
 {
-  "version": "1.2.9",
-  "url": "https://github.com/cenxisheng/alunhex/releases/download/v1.2.9/AlunHex-1.2.9.zip",
-  "notes": "修复「检查更新谎报已是最新版本」：程序改为实时读取安装目录的版本号，原地更新后不再拿旧版本号去比对。\n本版起安装包内附带 version.json，更新后版本识别立即准确。",
+  "version": "1.3.0",
+  "url": "https://github.com/cenxisheng/alunhex/releases/download/v1.3.0/AlunHex-1.3.0.zip",
+  "notes": "1. 上下等马改为按全服大数据「绝对标准」判定（不再是队内相对排名）：可能出现五个上等马、也可能五个下等马；浮窗与面板同时给出综合分和队内名次。2. 备战席换成独立浮窗：选人阶段单独一个窗口，完整显示所有可换英雄（带头像），点一下直接换，位置会记住。3. 海克斯卡面：推算卡也显示评级字母（虚线边框与实测卡区分），文案改为中性说明，不再出现「无实测」这类替上游下断言的表述。4. 修复战绩查询偶发「一片空白」和「卡在加载中」。5. 数据更新到 16.19（2026-09-27）。",
   "mandatory": false,
-  "published_at": "2026-09-28 04:22",
-  "setup_url": "https://github.com/cenxisheng/alunhex/releases/download/v1.2.9/AlunHex-Setup-1.2.9.exe"
+  "published_at": "2026-09-30 21:08",
+  "setup_url": "https://github.com/cenxisheng/alunhex/releases/download/v1.3.0/AlunHex-Setup-1.3.0.exe"
 }
