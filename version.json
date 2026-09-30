@@ -1,8 +1,8 @@
 {
-  "version": "1.3.2",
-  "url": "https://github.com/cenxisheng/alunhex/releases/download/v1.3.2/AlunHex-1.3.2.zip",
-  "notes": "1. 修复更新失败的老毛病：面板窗口子进程现在会随主程序一起退出（父进程被强杀也会退），不再锁住程序目录导致「更新后版本没变」。\n2. 修复卸载可能误删目录的问题：安装位置若被改成盘根或游戏目录，卸载将拒绝执行并说明原因。\n3. 修复更新时备份目录落点不确定的问题（现在固定在同一磁盘的确定位置）。\n4. 数据已更新到 16.19（2026-09-29）。",
+  "version": "1.3.3",
+  "url": "https://github.com/cenxisheng/alunhex/releases/download/v1.3.3/AlunHex-1.3.3.zip",
+  "notes": "1. 修复「重复点更新」会让程序更新不完整的问题：连点两次会同时启动两个更新器，互相抢占文件，结果版本号显示已更新、程序其实还是旧的。现在同一时刻只允许一个更新器。\n2. 修复面板窗口进程不随主程序退出、进而锁住程序目录导致更新失败的问题。\n3. 修复卸载可能误删目录：安装位置若被改成盘根或游戏目录，卸载会拒绝执行。\n4. 数据已更新到 16.19（2026-09-29）。",
   "mandatory": false,
-  "published_at": "2026-10-01 00:05",
-  "setup_url": "https://github.com/cenxisheng/alunhex/releases/download/v1.3.2/AlunHex-Setup-1.3.2.exe"
+  "published_at": "2026-10-01 00:13",
+  "setup_url": "https://github.com/cenxisheng/alunhex/releases/download/v1.3.3/AlunHex-Setup-1.3.3.exe"
 }
