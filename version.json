@@ -1,8 +1,8 @@
 {
-  "version": "1.6.0",
-  "url": "https://github.com/cenxisheng/alunhex/releases/download/v1.6.0/AlunHex-1.6.0.zip",
-  "notes": "1.6.0：跨区查询（腾讯官方源）+ 玩家标记 + 伤害构成弹窗 + 皮肤背景 + 主界面表头与海克斯列",
+  "version": "1.7.0",
+  "url": "https://github.com/cenxisheng/alunhex/releases/download/v1.7.0/AlunHex-1.7.0.zip",
+  "notes": "1.7.0：跨区查询修复 + 战绩查询按 Akari 版式重做 + 腾讯官方海克斯字典 + 阵营提示与胜率增益 + 海克斯别名容错 + 自家「AlunHex 实力分」(多维融合+折合段位) + 名次标定 + 分享图 + 视觉改版「海克斯科技·墨金」+ 冗余 UI 清理",
   "mandatory": false,
-  "published_at": "2026-10-05 04:28",
-  "setup_url": "https://github.com/cenxisheng/alunhex/releases/download/v1.6.0/AlunHex-Setup-1.6.0.exe"
+  "published_at": "2026-10-05 20:46",
+  "setup_url": "https://github.com/cenxisheng/alunhex/releases/download/v1.7.0/AlunHex-Setup-1.7.0.exe"
 }
