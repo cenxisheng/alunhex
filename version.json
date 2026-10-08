@@ -1,8 +1,8 @@
 {
-  "version": "1.7.1",
-  "url": "https://github.com/cenxisheng/alunhex/releases/download/v1.7.1/AlunHex-1.7.1.zip",
-  "notes": "1.7.1：合规清理 —— 品牌名改为自有「阿伦海斗」、阵营播报改为自有措辞（不再与 Akari 逐字相同）、剔除随包分发的 HexBox aliases 字段；修复海克斯 id 重复（升级：花晓之剑）",
+  "version": "1.7.2",
+  "url": "https://github.com/cenxisheng/alunhex/releases/download/v1.7.2/AlunHex-1.7.2.zip",
+  "notes": "1.7.2：修复面板打不开 —— 1.7.1 的打包环境缺 pywebview，面板窗口库没有随包分发（浮窗是纯 ctypes 所以还能显示，掩盖了问题）。已补齐 pywebview/pythonnet/clr_loader/cffi 并写进 requirements.txt。另含 1.7.1 的合规清理（品牌名阿伦海斗、自有播报文案、剔除 HexBox aliases 字段）",
   "mandatory": false,
-  "published_at": "2026-10-08 18:41",
-  "setup_url": "https://github.com/cenxisheng/alunhex/releases/download/v1.7.1/AlunHex-Setup-1.7.1.exe"
+  "published_at": "2026-10-08 20:12",
+  "setup_url": "https://github.com/cenxisheng/alunhex/releases/download/v1.7.2/AlunHex-Setup-1.7.2.exe"
 }
