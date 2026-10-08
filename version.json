@@ -1,8 +1,8 @@
 {
-  "version": "1.7.0",
-  "url": "https://github.com/cenxisheng/alunhex/releases/download/v1.7.0/AlunHex-1.7.0.zip",
-  "notes": "1.7.0：跨区查询修复 + 战绩查询按 Akari 版式重做 + 腾讯官方海克斯字典 + 阵营提示与胜率增益 + 海克斯别名容错 + 自家「AlunHex 实力分」(多维融合+折合段位) + 名次标定 + 分享图 + 视觉改版「海克斯科技·墨金」+ 冗余 UI 清理",
+  "version": "1.7.1",
+  "url": "https://github.com/cenxisheng/alunhex/releases/download/v1.7.1/AlunHex-1.7.1.zip",
+  "notes": "1.7.1：合规清理 —— 品牌名改为自有「阿伦海斗」、阵营播报改为自有措辞（不再与 Akari 逐字相同）、剔除随包分发的 HexBox aliases 字段；修复海克斯 id 重复（升级：花晓之剑）",
   "mandatory": false,
-  "published_at": "2026-10-05 20:46",
-  "setup_url": "https://github.com/cenxisheng/alunhex/releases/download/v1.7.0/AlunHex-Setup-1.7.0.exe"
+  "published_at": "2026-10-08 18:41",
+  "setup_url": "https://github.com/cenxisheng/alunhex/releases/download/v1.7.1/AlunHex-Setup-1.7.1.exe"
 }
