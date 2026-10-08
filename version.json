@@ -1,8 +1,8 @@
 {
-  "version": "1.7.2",
-  "url": "https://github.com/cenxisheng/alunhex/releases/download/v1.7.2/AlunHex-1.7.2.zip",
-  "notes": "1.7.2：修复面板打不开 —— 1.7.1 的打包环境缺 pywebview，面板窗口库没有随包分发（浮窗是纯 ctypes 所以还能显示，掩盖了问题）。已补齐 pywebview/pythonnet/clr_loader/cffi 并写进 requirements.txt。另含 1.7.1 的合规清理（品牌名阿伦海斗、自有播报文案、剔除 HexBox aliases 字段）",
+  "version": "1.7.3",
+  "url": "https://github.com/cenxisheng/alunhex/releases/download/v1.7.3/AlunHex-1.7.3.zip",
+  "notes": "修复英雄识别：浮窗评级与面板不一致的根因。\n\n- 补上对局中的英雄识别通道（gameData 的 teamOne / teamTwo）。\n  此前只查 playerChampionSelections，而它在对局开始后就消失了，\n  于是海克斯三选一时认不出英雄，浮窗退化成全局数据。\n  实测「虚幻武器」：面板 S（提莫专属 62.65% 胜率），浮窗却显示全局 A。\n- 英雄一旦认到就不再被误清空：2999 在国服对局中本来就不响应，\n  旧逻辑据此清掉已认到的英雄，现在必须客户端明确说在局外才清。\n- 修掉回归套件在有系统代理的机器上必红的假红（测试未隔离注册表代理）。",
   "mandatory": false,
-  "published_at": "2026-10-08 20:12",
-  "setup_url": "https://github.com/cenxisheng/alunhex/releases/download/v1.7.2/AlunHex-Setup-1.7.2.exe"
+  "published_at": "2026-10-08 22:48",
+  "setup_url": "https://github.com/cenxisheng/alunhex/releases/download/v1.7.3/AlunHex-Setup-1.7.3.exe"
 }
