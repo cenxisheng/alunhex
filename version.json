@@ -1,8 +1,8 @@
 {
-  "version": "1.7.4",
-  "url": "https://github.com/cenxisheng/alunhex/releases/download/v1.7.4/AlunHex-1.7.4.zip",
-  "notes": "修复局内海克斯评级混用全局阶段统计：阶段缺项时保留当前英雄统计，避免全局胜率冒充英雄实测。验证全部173个英雄四阶段的评级一致性及英雄读取通道；推算卡继续标注供参考。真实对局未逐英雄验证。",
+  "version": "1.7.5",
+  "url": "https://github.com/cenxisheng/alunhex/releases/download/v1.7.5/AlunHex-1.7.5.zip",
+  "notes": "维护更新：正常评分公式保持不变。\r\n更新失败回滚，版本标记最后写入；安全卸载保留个人配置与修改过的文件。\r\n浮窗与面板共享更新数据；评级异常显示待确认，参考排名明确估计来源。\r\n优化有界缓存、标定输入校验与并发写入；修复云顶图集尺寸获取失败时的异常。\r\n发布包排除个人设置、玩家标签、标定锚点及设置备份。",
   "mandatory": false,
-  "published_at": "2026-10-09 00:21",
-  "setup_url": "https://github.com/cenxisheng/alunhex/releases/download/v1.7.4/AlunHex-Setup-1.7.4.exe"
+  "published_at": "2026-10-12 03:52",
+  "setup_url": "https://github.com/cenxisheng/alunhex/releases/download/v1.7.5/AlunHex-Setup-1.7.5.exe"
 }
