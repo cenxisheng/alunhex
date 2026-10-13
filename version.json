@@ -1,8 +1,8 @@
 {
-  "version": "1.7.6",
-  "url": "https://github.com/cenxisheng/alunhex/releases/download/v1.7.6/AlunHex-1.7.6.zip",
-  "notes": "修复海克斯短卡名漏识别导致的评级漏显示；增加尺寸、对比度与留白补读。\r\n增强全屏及窗口模式切换时的抓屏兼容；真正独占全屏下的浮窗显示仍需切换窗口模式。\r\n原生面板窗口启动失败时自动使用浏览器；优化备战席标题显示。\r\n英雄评级与正常评分规则保持不变。",
+  "version": "1.7.7",
+  "url": "https://github.com/cenxisheng/alunhex/releases/download/v1.7.7/AlunHex-1.7.7.zip",
+  "notes": "AlunHex 1.7.7 更新公告\n\n这次主要修复数据更新下载问题：\n- 修复部分慢速、断续网络下，下载卡在 0% 或下载失败的问题。\n- 下载进度更清楚：连接时显示连接状态，开始下载后显示已下载大小，方便判断是否在正常下载。\n- 安装包已包含 16.20 数据（数据日期：2026 年 10 月 13 日）。本次不改海克斯评分规则。\n\n怎么更新：\n1. 老用户：打开软件面板，点「检查更新」，发现 1.7.7 后点「立即更新」，等待完成并重启。\n2. 如果软件内更新失败：到下方发布页下载 AlunHex-Setup-1.7.7.exe，退出软件后，选择原安装目录覆盖安装。不要先卸载或删除原目录。\n3. 单独更新数据：在面板「数据版本」处点「下载最新数据」，以后数据更新不需要重装软件。\n\n网络仍无法下载数据时，可以从发布页下载 data.zip，原样放到 AlunHex.exe 同一目录，再点「下载最新数据」导入；不用解压。\n\n下载地址：https://github.com/cenxisheng/alunhex/releases/tag/v1.7.7\n",
   "mandatory": false,
-  "published_at": "2026-10-13 20:36",
-  "setup_url": "https://github.com/cenxisheng/alunhex/releases/download/v1.7.6/AlunHex-Setup-1.7.6.exe"
+  "published_at": "2026-10-13 22:31",
+  "setup_url": "https://github.com/cenxisheng/alunhex/releases/download/v1.7.7/AlunHex-Setup-1.7.7.exe"
 }
