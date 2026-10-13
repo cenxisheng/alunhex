@@ -1,8 +1,8 @@
 {
-  "version": "1.7.7",
-  "url": "https://github.com/cenxisheng/alunhex/releases/download/v1.7.7/AlunHex-1.7.7.zip",
-  "notes": "AlunHex 1.7.7 更新公告\n\n这次主要修复数据更新下载问题：\n- 修复部分慢速、断续网络下，下载卡在 0% 或下载失败的问题。\n- 下载进度更清楚：连接时显示连接状态，开始下载后显示已下载大小，方便判断是否在正常下载。\n- 安装包已包含 16.20 数据（数据日期：2026 年 10 月 13 日）。本次不改海克斯评分规则。\n\n怎么更新：\n1. 老用户：打开软件面板，点「检查更新」，发现 1.7.7 后点「立即更新」，等待完成并重启。\n2. 如果软件内更新失败：到下方发布页下载 AlunHex-Setup-1.7.7.exe，退出软件后，选择原安装目录覆盖安装。不要先卸载或删除原目录。\n3. 单独更新数据：在面板「数据版本」处点「下载最新数据」，以后数据更新不需要重装软件。\n\n网络仍无法下载数据时，可以从发布页下载 data.zip，原样放到 AlunHex.exe 同一目录，再点「下载最新数据」导入；不用解压。\n\n下载地址：https://github.com/cenxisheng/alunhex/releases/tag/v1.7.7\n",
+  "version": "1.7.8",
+  "url": "https://github.com/cenxisheng/alunhex/releases/download/v1.7.8/AlunHex-1.7.8.zip",
+  "notes": "AlunHex 1.7.8 更新公告\n\n这次主要调整海克斯评级，让推荐档位更符合日常选卡需求。\n\n- 按同英雄、同阶段、同品质排名：前 10% 为 S，10%～35% 为 A，35%～70% 为 B，后 30% 为 C；卡池较小时按整张卡取整。\n- 修正小样本卡占据高排名的问题，评级说明同步显示实际名次和样本限制。\n- 保留 1.7.7 的下载修复，安装包内含 16.20 数据。\n\n更新方式：\n打开面板点「检查更新」→「立即更新」。1.7.5 用户可以直接升级到 1.7.8，不用逐个安装中间版本。升级后确认数据版本为 16.20；如果仍是旧数据，再点「下载最新数据」。\n\n软件内下载失败时，可从发布页下载 AlunHex-Setup-1.7.8.exe，退出软件后，选原安装目录覆盖安装；不用先卸载。\n\n下载地址：https://github.com/cenxisheng/alunhex/releases/tag/v1.7.8\n",
   "mandatory": false,
-  "published_at": "2026-10-13 22:31",
-  "setup_url": "https://github.com/cenxisheng/alunhex/releases/download/v1.7.7/AlunHex-Setup-1.7.7.exe"
+  "published_at": "2026-10-13 23:24",
+  "setup_url": "https://github.com/cenxisheng/alunhex/releases/download/v1.7.8/AlunHex-Setup-1.7.8.exe"
 }
