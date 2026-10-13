@@ -1,8 +1,8 @@
 {
-  "version": "1.7.5",
-  "url": "https://github.com/cenxisheng/alunhex/releases/download/v1.7.5/AlunHex-1.7.5.zip",
-  "notes": "维护更新：正常评分公式保持不变。\r\n更新失败回滚，版本标记最后写入；安全卸载保留个人配置与修改过的文件。\r\n浮窗与面板共享更新数据；评级异常显示待确认，参考排名明确估计来源。\r\n优化有界缓存、标定输入校验与并发写入；修复云顶图集尺寸获取失败时的异常。\r\n发布包排除个人设置、玩家标签、标定锚点及设置备份。",
+  "version": "1.7.6",
+  "url": "https://github.com/cenxisheng/alunhex/releases/download/v1.7.6/AlunHex-1.7.6.zip",
+  "notes": "修复海克斯短卡名漏识别导致的评级漏显示；增加尺寸、对比度与留白补读。\r\n增强全屏及窗口模式切换时的抓屏兼容；真正独占全屏下的浮窗显示仍需切换窗口模式。\r\n原生面板窗口启动失败时自动使用浏览器；优化备战席标题显示。\r\n英雄评级与正常评分规则保持不变。",
   "mandatory": false,
-  "published_at": "2026-10-12 03:52",
-  "setup_url": "https://github.com/cenxisheng/alunhex/releases/download/v1.7.5/AlunHex-Setup-1.7.5.exe"
+  "published_at": "2026-10-13 20:36",
+  "setup_url": "https://github.com/cenxisheng/alunhex/releases/download/v1.7.6/AlunHex-Setup-1.7.6.exe"
 }
