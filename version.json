@@ -1,8 +1,8 @@
 {
-  "version": "1.8.0",
-  "url": "https://github.com/cenxisheng/alunhex/releases/download/v1.8.0/AlunHex-1.8.0.zip",
-  "notes": "AlunHex 1.8.0 更新公告\n1. 卡面识别更稳：改善短卡名漏认，截图通道异常后自动重试，切换无边框后重新定位并刷新评级。\n2. 队友评级改为本队五人比较：大哥、上等马、中等马、混子、下等马，按选人顺序显示，优先查询战绩并持续补查。资料不足时保留待评级。\n3. 设置页新增交流群：QQ群 1097384043，一键复制群号。\n4. 修复磁盘空间不足时，启动日志写入导致的崩溃。\n更新方式：检查更新→立即更新；失败可从官网或发布页的备用镜像下载安装。数据版本仍为16.20。",
+  "version": "1.8.1",
+  "url": "https://github.com/cenxisheng/alunhex/releases/download/v1.8.1/AlunHex-1.8.1.zip",
+  "notes": "修复选人/换英雄后仍显示上一英雄；改进队友战绩备用查询及故障自动切换，查询失败不冒充零分；优化下载选源和慢线路切换。评分公式及16.20数据不变。",
   "mandatory": false,
-  "published_at": "2026-10-15 18:17",
-  "setup_url": "https://github.com/cenxisheng/alunhex/releases/download/v1.8.0/AlunHex-Setup-1.8.0.exe"
+  "published_at": "2026-10-15 22:10",
+  "setup_url": "https://github.com/cenxisheng/alunhex/releases/download/v1.8.1/AlunHex-Setup-1.8.1.exe"
 }
