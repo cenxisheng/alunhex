@@ -1,8 +1,8 @@
 {
-  "version": "1.7.9",
-  "url": "https://github.com/cenxisheng/alunhex/releases/download/v1.7.9/AlunHex-1.7.9.zip",
-  "notes": "AlunHex 1.7.9：修复收起/Home 小方块不能拖动，松手记住位置，轻点仍可展开。优化队友评级出现速度：独立查询、边查边显示、缺人后台补查、成功结果短期复用；修复旧局请求阻塞新局。评分规则和最近20场口径不变，保留16.20数据及国内镜像。1.7.5及之后版本可检查更新直接升级。",
+  "version": "1.8.0",
+  "url": "https://github.com/cenxisheng/alunhex/releases/download/v1.8.0/AlunHex-1.8.0.zip",
+  "notes": "AlunHex 1.8.0 更新公告\n1. 卡面识别更稳：改善短卡名漏认，截图通道异常后自动重试，切换无边框后重新定位并刷新评级。\n2. 队友评级改为本队五人比较：大哥、上等马、中等马、混子、下等马，按选人顺序显示，优先查询战绩并持续补查。资料不足时保留待评级。\n3. 设置页新增交流群：QQ群 1097384043，一键复制群号。\n4. 修复磁盘空间不足时，启动日志写入导致的崩溃。\n更新方式：检查更新→立即更新；失败可从官网或发布页的备用镜像下载安装。数据版本仍为16.20。",
   "mandatory": false,
-  "published_at": "2026-10-14 19:24",
-  "setup_url": "https://github.com/cenxisheng/alunhex/releases/download/v1.7.9/AlunHex-Setup-1.7.9.exe"
+  "published_at": "2026-10-15 18:17",
+  "setup_url": "https://github.com/cenxisheng/alunhex/releases/download/v1.8.0/AlunHex-Setup-1.8.0.exe"
 }
