@@ -1,8 +1,8 @@
 {
-  "version": "1.8.1",
-  "url": "https://github.com/cenxisheng/alunhex/releases/download/v1.8.1/AlunHex-1.8.1.zip",
-  "notes": "修复选人/换英雄后仍显示上一英雄；改进队友战绩备用查询及故障自动切换，查询失败不冒充零分；优化下载选源和慢线路切换。评分公式及16.20数据不变。",
+  "version": "1.8.2",
+  "url": "https://github.com/cenxisheng/alunhex/releases/download/v1.8.2/AlunHex-1.8.2.zip",
+  "notes": "AlunHex 1.8.2 更新说明\n1. 安装更省心：选择磁盘根目录时，自动建立 AlunHex 文件夹，避免程序与其他文件混放。\n2. 修正容量显示：按程序文件清单统计安装大小，避免把同目录其他文件算进来。\n3. 缩小更新备份范围：只备份程序和本次将替换的文件，避免额外复制无关内容；保留更新失败回滚。\n本次不调整评级规则，数据仍为16.20。\n更新方式：正常用户可在面板点击“检查更新”→“立即更新”。曾出现异常磁盘占用、安装在盘根或混用目录的用户，建议退出旧版后手动下载新安装包，安装到独立的 AlunHex 文件夹，个人设置先备份。\n说明：新版不会自动删除历史大文件或旧备份。用户反馈的约80GB实际占用来源尚未确认，请勿直接删除磁盘根目录或不明备份。\n",
   "mandatory": false,
-  "published_at": "2026-10-15 22:10",
-  "setup_url": "https://github.com/cenxisheng/alunhex/releases/download/v1.8.1/AlunHex-Setup-1.8.1.exe"
+  "published_at": "2026-10-16 19:57",
+  "setup_url": "https://github.com/cenxisheng/alunhex/releases/download/v1.8.2/AlunHex-Setup-1.8.2.exe"
 }
