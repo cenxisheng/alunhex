@@ -1,8 +1,8 @@
 {
-  "version": "1.8.3",
-  "url": "https://github.com/cenxisheng/alunhex/releases/download/v1.8.3/AlunHex-1.8.3.zip",
-  "notes": "BUG修复与识别优化：卡面评级采用独立扫描，减少网络查询造成的等待；增加卡框快速检测，优先识别卡名区域并加快选卡后的隐藏；改善漏认补扫、聊天误识别及徽章错位；修复浮窗点击抢焦点导致按键进入输入法的问题；控制面板新增自动接受对局开关。评级规则与16.20数据不变。",
+  "version": "1.8.4",
+  "url": "https://github.com/cenxisheng/alunhex/releases/download/v1.8.4/AlunHex-1.8.4.zip",
+  "notes": "AlunHex 1.8.4 BUG修复与性能优化\n1. 切换英雄更稳定，避免旧请求覆盖新英雄的推荐内容。\n2. 调整英雄能力标记后，相关缓存立即刷新。\n3. 优化OCR超时处理，减少异常任务排队。\n4. 修复部分面板进程退出后残留的问题。\n5. 减少重复文件检查与计算，保持原有评分规则。数据仍为16.20。\n更新方式：控制面板点击「检查更新」→「立即更新」。下载失败可使用发布页安装包或备用镜像，退出旧版后安装到原目录，无需提前卸载。",
   "mandatory": false,
-  "published_at": "2026-10-18 01:35",
-  "setup_url": "https://github.com/cenxisheng/alunhex/releases/download/v1.8.3/AlunHex-Setup-1.8.3.exe"
+  "published_at": "2026-10-18 02:30",
+  "setup_url": "https://github.com/cenxisheng/alunhex/releases/download/v1.8.4/AlunHex-Setup-1.8.4.exe"
 }
