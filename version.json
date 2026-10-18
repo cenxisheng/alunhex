@@ -1,8 +1,8 @@
 {
-  "version": "1.8.4",
-  "url": "https://github.com/cenxisheng/alunhex/releases/download/v1.8.4/AlunHex-1.8.4.zip",
-  "notes": "AlunHex 1.8.4 BUG修复与性能优化\n1. 切换英雄更稳定，避免旧请求覆盖新英雄的推荐内容。\n2. 调整英雄能力标记后，相关缓存立即刷新。\n3. 优化OCR超时处理，减少异常任务排队。\n4. 修复部分面板进程退出后残留的问题。\n5. 减少重复文件检查与计算，保持原有评分规则。数据仍为16.20。\n更新方式：控制面板点击「检查更新」→「立即更新」。下载失败可使用发布页安装包或备用镜像，退出旧版后安装到原目录，无需提前卸载。",
+  "version": "1.8.5",
+  "url": "https://github.com/cenxisheng/alunhex/releases/download/v1.8.5/AlunHex-1.8.5.zip",
+  "notes": "AlunHex 1.8.5 BUG修复与体验优化\n\n1. 客户端连接优化：收窄进程访问范围，优先读取连接文件，保留国服备用连接方式。\n2. 队友评级更稳定：查询任务独立分配资源，短暂失败自动补查，减少长时间等待。\n3. 卡面评级显示优化：减少位置上下抖动，选完后独立检测收起，避免等待上一轮识别结束。\n4. 浮窗显示优化：修复选人时浮窗反复变大变小的问题，改善窗口切换后的识别恢复。\n\n本次不调整评级规则，数据版本仍为16.20。\n更新方式：打开软件面板，点击「检查更新」→「立即更新」。如下载失败，可前往官网 https://alunhex.pages.dev/ 下载；解压安装包后退出旧版，安装到原目录即可，无需提前卸载。\n",
   "mandatory": false,
-  "published_at": "2026-10-18 02:30",
-  "setup_url": "https://github.com/cenxisheng/alunhex/releases/download/v1.8.4/AlunHex-Setup-1.8.4.exe"
+  "published_at": "2026-10-18 17:49",
+  "setup_url": "https://github.com/cenxisheng/alunhex/releases/download/v1.8.5/AlunHex-Setup-1.8.5.exe"
 }
