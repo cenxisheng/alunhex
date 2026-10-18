@@ -1,8 +1,8 @@
 {
-  "version": "1.8.5",
-  "url": "https://github.com/cenxisheng/alunhex/releases/download/v1.8.5/AlunHex-1.8.5.zip",
-  "notes": "AlunHex 1.8.5 BUG修复与体验优化\n\n1. 客户端连接优化：收窄进程访问范围，优先读取连接文件，保留国服备用连接方式。\n2. 队友评级更稳定：查询任务独立分配资源，短暂失败自动补查，减少长时间等待。\n3. 卡面评级显示优化：减少位置上下抖动，选完后独立检测收起，避免等待上一轮识别结束。\n4. 浮窗显示优化：修复选人时浮窗反复变大变小的问题，改善窗口切换后的识别恢复。\n\n本次不调整评级规则，数据版本仍为16.20。\n更新方式：打开软件面板，点击「检查更新」→「立即更新」。如下载失败，可前往官网 https://alunhex.pages.dev/ 下载；解压安装包后退出旧版，安装到原目录即可，无需提前卸载。\n",
+  "version": "1.8.6",
+  "url": "https://github.com/cenxisheng/alunhex/releases/download/v1.8.6/AlunHex-1.8.6.zip",
+  "notes": "AlunHex 1.8.6 更新公告\n\n1. 卡面识别优化：修复上一轮卡框残留阻碍下一轮评级显示的问题，减少无卡面时的重复补扫，改进新卡面出现后的响应。\n2. 队伍窗口焕新：采用紧凑表格，头像、近期表现、队内评级更清楚；按住顶部标题即可拖动整个窗口，松手记住位置。\n3. 界面细节调整：优化面板布局、配色和字体显示，保留原卡面评级图标、颜色及评分规则。\n4. 连接与查询优化：整合客户端连接恢复和队伍查询补查；明确进入结算后减少后台扫描，取消过期的后续查询。\n\n更新方式：打开控制面板，点击「检查更新」→「立即更新」。下载失败可从发布页下载安装包，退出旧版后安装到原目录。\n数据版本仍为 16.20。荣誉等待的根因尚未确认，本次不宣称已解决该问题。",
   "mandatory": false,
-  "published_at": "2026-10-18 17:49",
-  "setup_url": "https://github.com/cenxisheng/alunhex/releases/download/v1.8.5/AlunHex-Setup-1.8.5.exe"
+  "published_at": "2026-10-19 04:00",
+  "setup_url": "https://github.com/cenxisheng/alunhex/releases/download/v1.8.6/AlunHex-Setup-1.8.6.exe"
 }
