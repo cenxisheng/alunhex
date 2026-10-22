@@ -1,8 +1,8 @@
 {
-  "version": "1.8.6",
-  "url": "https://github.com/cenxisheng/alunhex/releases/download/v1.8.6/AlunHex-1.8.6.zip",
-  "notes": "AlunHex 1.8.6 更新公告\n\n1. 卡面识别优化：修复上一轮卡框残留阻碍下一轮评级显示的问题，减少无卡面时的重复补扫，改进新卡面出现后的响应。\n2. 队伍窗口焕新：采用紧凑表格，头像、近期表现、队内评级更清楚；按住顶部标题即可拖动整个窗口，松手记住位置。\n3. 界面细节调整：优化面板布局、配色和字体显示，保留原卡面评级图标、颜色及评分规则。\n4. 连接与查询优化：整合客户端连接恢复和队伍查询补查；明确进入结算后减少后台扫描，取消过期的后续查询。\n\n更新方式：打开控制面板，点击「检查更新」→「立即更新」。下载失败可从发布页下载安装包，退出旧版后安装到原目录。\n数据版本仍为 16.20。荣誉等待的根因尚未确认，本次不宣称已解决该问题。",
+  "version": "1.8.7",
+  "url": "https://github.com/cenxisheng/alunhex/releases/download/v1.8.7/AlunHex-1.8.7.zip",
+  "notes": "适配海斗 4.0：卡池切换到 4.0（新增 41 张、移除 14 张），新卡显示官方图标；还没有实测数据的卡不再统一显示 B，改为按机制显示「契合 / 一般 / 不搭」，三张都是推算卡时标出最契合的一张；统计数据更新到 10-20；修复「罪恶快感」与「罪恶快感！」同名识别",
   "mandatory": false,
-  "published_at": "2026-10-19 04:00",
-  "setup_url": "https://github.com/cenxisheng/alunhex/releases/download/v1.8.6/AlunHex-Setup-1.8.6.exe"
+  "published_at": "2026-10-22 13:06",
+  "setup_url": "https://github.com/cenxisheng/alunhex/releases/download/v1.8.7/AlunHex-Setup-1.8.7.exe"
 }
