@@ -1,8 +1,8 @@
 {
-  "version": "1.8.7",
-  "url": "https://github.com/cenxisheng/alunhex/releases/download/v1.8.7/AlunHex-1.8.7.zip",
-  "notes": "适配海斗 4.0：卡池切换到 4.0（新增 41 张、移除 14 张），新卡显示官方图标；还没有实测数据的卡不再统一显示 B，改为按机制显示「契合 / 一般 / 不搭」，三张都是推算卡时标出最契合的一张；统计数据更新到 10-20；修复「罪恶快感」与「罪恶快感！」同名识别",
+  "version": "1.8.8",
+  "url": "https://github.com/cenxisheng/alunhex/releases/download/v1.8.8/AlunHex-1.8.8.zip",
+  "notes": "录屏兼容：「录屏时隐藏浮窗」关掉后立即对全部窗口生效（N 卡即时重放不再被关），关掉后识别会自动避开软件自己的画面；修复单独刷新一张卡后旧卡评级留在新卡上的问题；电脑缺少 Windows 文字识别组件时显示中文说明和「一键修复」按钮；卡面识别日志保留更久，便于排查",
   "mandatory": false,
-  "published_at": "2026-10-22 13:06",
-  "setup_url": "https://github.com/cenxisheng/alunhex/releases/download/v1.8.7/AlunHex-Setup-1.8.7.exe"
+  "published_at": "2026-10-23 17:24",
+  "setup_url": "https://github.com/cenxisheng/alunhex/releases/download/v1.8.8/AlunHex-Setup-1.8.8.exe"
 }
