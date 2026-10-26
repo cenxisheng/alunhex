@@ -1,8 +1,8 @@
 {
-  "version": "1.8.9",
-  "url": "https://github.com/cenxisheng/alunhex/releases/download/v1.8.9/AlunHex-1.8.9.zip",
-  "notes": "修复部分电脑控制面板排版错乱（缺少 WebView2 运行库时改用系统浏览器打开面板）；数据更新到 4.0（16.21，10-25，1505 万场），有实测评级的新海克斯增加到 31 张",
+  "version": "1.8.10",
+  "url": "https://github.com/cenxisheng/alunhex/releases/download/v1.8.10/AlunHex-1.8.10.zip",
+  "notes": "修复OCR 10013、10054及识别等待，改善备战席响应；安装更新完整校验与失败回滚；新增自愿参与的击杀日榜、周榜和匿名统计开关；增加QQ二群1132059092并优化设置排版，保留人物IP。数据仍为16.21。",
   "mandatory": false,
-  "published_at": "2026-10-25 19:14",
-  "setup_url": "https://github.com/cenxisheng/alunhex/releases/download/v1.8.9/AlunHex-Setup-1.8.9.exe"
+  "published_at": "2026-10-26 19:24",
+  "setup_url": "https://github.com/cenxisheng/alunhex/releases/download/v1.8.10/AlunHex-Setup-1.8.10.exe"
 }
