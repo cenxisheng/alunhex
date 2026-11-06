@@ -1,8 +1,8 @@
 {
-  "version": "1.9.1",
-  "url": "https://alunhex.pages.dev/api/downloads/v1.9.1/AlunHex-1.9.1.zip",
-  "notes": "击杀榜改为侧边栏独立分区：今日榜按当日最佳 5 局计，新增海斗 4.0 赛季总榜（每天 0/12/18/22 点更新），默认参与；可公开游戏 ID（含 #后缀）和头像，在软件里点榜上玩家直接查他的战绩；结算没及时取到的局最长补查 30 天，每局状态都能看到。隐藏分页只保留 AlunHex 实力分，修复亮色模式显示；分享图改版，用本命英雄的高品级皮肤原画。战绩页登录后默认显示本人。",
+  "version": "2.0.0",
+  "url": "https://alunhex.pages.dev/api/downloads/v2.0.0/AlunHex-2.0.0.zip",
+  "notes": "2.0 大版本：全软件重做；选英雄时多条出装路线点「应用」，局内出装跟着你买的装备和拿到的海克斯实时调整；商店 / 三选一自动展开、自动记录已选海克斯；没有中文识别的电脑自动下载离线识别组件；数据有新版本时自动更新并在面板提示重启载入；新增自检与一键修复、可选浮窗快捷键；更新用上国内服务器；授权说明更新，升级后需重新确认一次。",
   "mandatory": false,
-  "published_at": "2026-10-28 14:45",
-  "setup_url": "https://alunhex.pages.dev/api/downloads/v1.9.1/AlunHex-Setup-1.9.1.exe"
+  "published_at": "2026-11-07 01:32",
+  "setup_url": "https://alunhex.pages.dev/api/downloads/v2.0.0/AlunHex-Setup-2.0.0.exe"
 }
