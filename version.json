@@ -1,8 +1,8 @@
 {
-  "version": "2.0.1",
-  "url": "https://alunhex.pages.dev/api/downloads/v2.0.1/AlunHex-2.0.1.zip",
-  "notes": "2.0 热补丁（补丁 1）：修复打完一局后，下一局浮窗不再收成贴边标签、Home 展开和商店 / 三选一自动展开失效的问题。从这一版起，小补丁会在后台下载、下次打开软件时自动安装，可在设置「版本与更新」里关闭。",
+  "version": "2.0.2",
+  "url": "https://alunhex.pages.dev/api/downloads/v2.0.2/AlunHex-2.0.2.zip",
+  "notes": "2.0 补丁 2：修复软件装在非 C 盘时无法更新（点更新后软件关闭、版本不变）的问题；包含补丁 1：打完一局后下一局浮窗不再收成贴边标签、Home 展开和商店 / 三选一自动展开失效。如果你点更新后软件关了、版本没变，请到官网 alunhex.com 下载安装包覆盖安装一次，设置和数据会保留，之后就能正常更新。从这一版起，小补丁会在后台下载、下次打开软件时自动安装，可在设置「版本与更新」里关闭。",
   "mandatory": false,
-  "published_at": "2026-11-07 05:50",
-  "setup_url": "https://alunhex.pages.dev/api/downloads/v2.0.1/AlunHex-Setup-2.0.1.exe"
+  "published_at": "2026-11-07 06:20",
+  "setup_url": "https://alunhex.pages.dev/api/downloads/v2.0.2/AlunHex-Setup-2.0.2.exe"
 }
