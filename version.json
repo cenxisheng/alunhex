@@ -1,8 +1,11 @@
 {
-  "version": "2.0.2",
-  "url": "https://alunhex.pages.dev/api/downloads/v2.0.2/AlunHex-2.0.2.zip",
-  "notes": "2.0 补丁 2：修复软件装在非 C 盘时无法更新（点更新后软件关闭、版本不变）的问题；包含补丁 1：打完一局后下一局浮窗不再收成贴边标签、Home 展开和商店 / 三选一自动展开失效。如果你点更新后软件关了、版本没变，请到官网 alunhex.com 下载安装包覆盖安装一次，设置和数据会保留，之后就能正常更新。从这一版起，小补丁会在后台下载、下次打开软件时自动安装，可在设置「版本与更新」里关闭。",
+  "version": "2.0.3",
+  "url": "https://alunhex.pages.dev/api/downloads/v2.0.3/AlunHex-2.0.3.zip",
+  "notes": "2.0 补丁 3：修复进游戏后队伍评级、备战席、出装窗口可能留在屏幕上的问题；软件更新、数据更新和小补丁在官网连不上或超时时自动切到腾讯云线路；数据自动更新失败时，设置里会出现手动下载入口；修复分担查询误报「服务器暂未开放」，并改成和其他设置一样的开关；安装不完整时给出明确提示；设置里新增「上传异常」，遇到问题点一下就能把脱敏日志发给我们。",
   "mandatory": false,
-  "published_at": "2026-11-07 06:20",
-  "setup_url": "https://alunhex.pages.dev/api/downloads/v2.0.2/AlunHex-Setup-2.0.2.exe"
+  "published_at": "2026-11-07 16:22",
+  "setup_url": "https://alunhex.pages.dev/api/downloads/v2.0.3/AlunHex-Setup-2.0.3.exe",
+  "auto_patch": {
+    "rollout_bp": 1000
+  }
 }
