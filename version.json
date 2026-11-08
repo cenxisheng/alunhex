@@ -1,10 +1,10 @@
 {
-  "version": "2.0.3",
-  "url": "https://alunhex.pages.dev/api/downloads/v2.0.3/AlunHex-2.0.3.zip",
-  "notes": "2.0 补丁 3：修复进游戏后队伍评级、备战席、出装窗口可能留在屏幕上的问题；软件更新、数据更新和小补丁在官网连不上或超时时自动切到腾讯云线路；数据自动更新失败时，设置里会出现手动下载入口；修复分担查询误报「服务器暂未开放」，并改成和其他设置一样的开关；安装不完整时给出明确提示；设置里新增「上传异常」，遇到问题点一下就能把脱敏日志发给我们。",
+  "version": "2.0.4",
+  "url": "https://alunhex.pages.dev/api/downloads/v2.0.4/AlunHex-2.0.4.zip",
+  "notes": "2.0 补丁 4：英雄插画上线（选人立绘、英雄详情、实力分卡背景、胜利和高光局的复盘卡）；分享图改版，实力分和战报都有横竖两版，可以换英雄；击杀榜改版，新增成就、名人堂和玩家名片；命运之武器单独分组，局内浮窗提示首件出什么；数据更新改为在局后自动换上，小补丁先下载好再提示；修复重启电脑后授权窗卡住、局内对局十人空白、选人窗口跑出屏幕、商店里出现多套出装、无边框窗口被当成全屏等问题。2.0 补丁 3 用户如果点更新后没反应，请到官网下载安装包覆盖安装一次，设置和数据都会保留。",
   "mandatory": false,
-  "published_at": "2026-11-07 16:22",
-  "setup_url": "https://alunhex.pages.dev/api/downloads/v2.0.3/AlunHex-Setup-2.0.3.exe",
+  "published_at": "2026-11-08 16:39",
+  "setup_url": "https://alunhex.pages.dev/api/downloads/v2.0.4/AlunHex-Setup-2.0.4.exe",
   "auto_patch": {
     "rollout_bp": 1000
   }
