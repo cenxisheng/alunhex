@@ -1,11 +1,11 @@
 {
-  "version": "2.0.4",
-  "url": "https://alunhex.pages.dev/api/downloads/v2.0.4/AlunHex-2.0.4.zip",
-  "notes": "2.0 补丁 4：英雄插画上线（选人立绘、英雄详情、实力分卡背景、胜利和高光局的复盘卡）；分享图改版，实力分和战报都有横竖两版，可以换英雄；击杀榜改版，新增成就、名人堂和玩家名片；命运之武器单独分组，局内浮窗提示首件出什么；数据更新改为在局后自动换上，小补丁先下载好再提示；修复重启电脑后授权窗卡住、局内对局十人空白、选人窗口跑出屏幕、商店里出现多套出装、无边框窗口被当成全屏等问题。2.0 补丁 3 用户如果点更新后没反应，请到官网下载安装包覆盖安装一次，设置和数据都会保留。",
+  "version": "2.0.5",
+  "url": "https://alunhex.pages.dev/api/downloads/v2.0.5/AlunHex-2.0.5.zip",
+  "notes": "2.0 补丁 5：选人与局内浮窗升级（海克斯金描边、等宽数字字体、高刷原生动效、第三卡补齐不回闪）；新增授权前环境自检、一键修复与脱敏排查包导出；抢先内置 16.23 四张新海克斯高清图标；LCU 热连接复用、OCR 匹配缓存、低样本评级校准、异常主动提醒与底层 GDI+/跨屏稳定性修复；预埋新版实力分支持。",
   "mandatory": false,
-  "published_at": "2026-11-08 16:39",
-  "setup_url": "https://alunhex.pages.dev/api/downloads/v2.0.4/AlunHex-Setup-2.0.4.exe",
+  "published_at": "2026-11-19 07:22",
+  "setup_url": "https://alunhex.pages.dev/api/downloads/v2.0.5/AlunHex-Setup-2.0.5.exe",
   "auto_patch": {
-    "rollout_bp": 1000
+    "rollout_bp": 3000
   }
 }
