@@ -1,10 +1,10 @@
 {
-  "version": "2.0.5",
-  "url": "https://alunhex.pages.dev/api/downloads/v2.0.5/AlunHex-2.0.5.zip",
-  "notes": "2.0 补丁 5：选人与局内浮窗升级（海克斯金描边、等宽数字字体、高刷原生动效、第三卡补齐不回闪）；新增授权前环境自检、一键修复与脱敏排查包导出；抢先内置 16.23 四张新海克斯高清图标；LCU 热连接复用、OCR 匹配缓存、低样本评级校准、异常主动提醒与底层 GDI+/跨屏稳定性修复；预埋新版实力分支持。",
+  "version": "2.0.6",
+  "url": "https://alunhex.pages.dev/api/downloads/v2.0.6/AlunHex-2.0.6.zip",
+  "notes": "2.0 补丁 6：大幅优化选牌界面流畅度，解决海克斯三选一时游戏画面掉帧、一卡一卡的问题；后台静默更新完对局数据后，英雄榜与当前页面会自动刷新同步，不再出现新旧数据混用；新增海克斯卡牌缺少图标时的自动补图兜底，老版本升级数据后也能正常显示新卡图标。",
   "mandatory": false,
-  "published_at": "2026-11-19 07:22",
-  "setup_url": "https://alunhex.pages.dev/api/downloads/v2.0.5/AlunHex-Setup-2.0.5.exe",
+  "published_at": "2026-11-21 03:41",
+  "setup_url": "https://alunhex.pages.dev/api/downloads/v2.0.6/AlunHex-Setup-2.0.6.exe",
   "auto_patch": {
     "rollout_bp": 3000
   }
