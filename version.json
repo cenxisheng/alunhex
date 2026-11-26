@@ -1,10 +1,10 @@
 {
-  "version": "2.0.7",
-  "url": "https://alunhex.pages.dev/api/downloads/v2.0.7/AlunHex-2.0.7.zip",
-  "notes": "新增烬的城邦四选一海克斯全适配，4张海克斯同屏也能完整识别推荐；选人聊天框队伍评级改为保留 [AlunHex] 标识的单条紧凑排版，一眼看清不刷屏；修复本机大区战绩偶尔连不上变空白、选人窗进游戏后偶发不自动消失、击杀榜昵称误打码与重伤穿透出装推荐偏差；更新 16.23 最新超两百万场国服海斗数据，局后复盘新增 MVP/SVP 与牌运五档评价，设置页新增一键纯净模式（随时恢复）与更新完整性校验。",
+  "version": "2.0.8",
+  "url": "https://alunhex.pages.dev/api/downloads/v2.0.8/AlunHex-2.0.8.zip",
+  "notes": "2.0 补丁 8：支持全键盘任意单键/组合键/鼠标侧键自由设热键；修复开插件偶发卡顿 Chrome、打开主面板弹微软商店、无边框误报全屏、勾选游戏期间关闭客户端不出评级、首轮海克斯漏评与跨局阶段错判、本局更多套路自动收回、WiFi 玩家开局跳延迟。",
   "mandatory": false,
-  "published_at": "2026-11-26 08:37",
-  "setup_url": "https://alunhex.pages.dev/api/downloads/v2.0.7/AlunHex-Setup-2.0.7.exe",
+  "published_at": "2026-11-26 22:49",
+  "setup_url": "https://alunhex.pages.dev/api/downloads/v2.0.8/AlunHex-Setup-2.0.8.exe",
   "auto_patch": {
     "rollout_bp": 3000
   }
