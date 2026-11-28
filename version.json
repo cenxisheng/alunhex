@@ -1,10 +1,10 @@
 {
-  "version": "2.0.8",
-  "url": "https://alunhex.pages.dev/api/downloads/v2.0.8/AlunHex-2.0.8.zip",
-  "notes": "2.0 补丁 8：支持全键盘任意单键/组合键/鼠标侧键自由设热键；修复开插件偶发卡顿 Chrome、打开主面板弹微软商店、无边框误报全屏、勾选游戏期间关闭客户端不出评级、首轮海克斯漏评与跨局阶段错判、本局更多套路自动收回、WiFi 玩家开局跳延迟。",
+  "version": "2.0.9",
+  "url": "https://alunhex.pages.dev/api/downloads/v2.0.9/AlunHex-2.0.9.zip",
+  "notes": "2.0 补丁 9：修复打完游戏返回结算时客户端卡顿、关闭选人队友评级后备战席与出装浮窗闪烁、进化装备或跳过前三件不出后续推荐、选人最后几秒偶发来不及导装、战后牌运评价缺失与四选一深扫漏认；优化认牌速度与 4K 画面占用、不玩游戏自动深度省电、局内全程静默不抢网、更新小补丁瘦身近九成且防代理绕路。",
   "mandatory": false,
-  "published_at": "2026-11-26 22:49",
-  "setup_url": "https://alunhex.pages.dev/api/downloads/v2.0.8/AlunHex-Setup-2.0.8.exe",
+  "published_at": "2026-11-28 23:07",
+  "setup_url": "https://alunhex.pages.dev/api/downloads/v2.0.9/AlunHex-Setup-2.0.9.exe",
   "auto_patch": {
     "rollout_bp": 3000
   }
